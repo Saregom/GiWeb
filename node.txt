@@ -1,0 +1,66 @@
+npm init
+npm install express --save
+npm install body-parser --save
+npm install nodemon --save-dev
+"start": "nodemon index.js"
+
+
+PROYECTO:
+Cada curso tiene estudiantes
+cada estudiantes tiene (3 notas - curso teorico; 4 notas - curso teorico-practico)
+Cada estudiante tine una nota final por curso (promedio por curso)
+Cada estudinte tiene un promedio final entre todos los cursos
+
+cursos:[
+	{
+        id: 11,
+        nombre: ,
+        tipo: ,
+        creditos,
+        estudiantes: [
+		{
+			"estudiante":{
+               		codigo: 1,
+	                nombre: ,
+        	        apellido: ,
+			},
+			notas:[5.0, 5.0, 5.0],
+	                notaTotal: 5.0
+		}
+            
+        ]
+	}
+],
+
+estudiantes: [
+    {
+        codigo: 1,
+        nombre: ,
+        apellido: ,
+        cursos:[
+		{
+			"curso":{
+		            id: 11,
+		            nombre: ,
+		            tipo: ,
+		            creditos: ,    
+			}.
+			"notaTotal": 5.0
+	        }
+    }
+] 
+
+
+JSON
+{
+  "id":1,
+  "nombre":"logica",
+  "creditos":21
+  "estudiantes":
+      {
+        "estudiante":2022102001,
+        "notas":[3,4,5],
+        "notaTotal":4
+      }
+    
+}
